@@ -2,7 +2,7 @@
     "settings": {
         "options": {
             "show_on_front": "page",
-            "stylesheet": "pub\/twentyseventeen",
+            "stylesheet": "pub\/rcchoa_theme",
             "featured-content": false
         },
         "theme_mods": {
@@ -25,11 +25,11 @@
                 "cached": false
             },
             "page_layout": "two-column",
-            "header_image": "https:\/\/s0.wp.com\/wp-content\/themes\/pub\/twentyseventeen\/assets\/images\/header.jpg",
+            "header_image": "https:\/\/s0.wp.com\/wp-content\/themes\/pub\/rcchoa_theme\/assets\/images\/header.jpg",
             "background_color": "ffffff",
             "header_image_data": {
-                "url": "https:\/\/s0.wp.com\/wp-content\/themes\/pub\/twentyseventeen\/assets\/images\/header.jpg",
-                "thumbnail_url": "https:\/\/s0.wp.com\/wp-content\/themes\/pub\/twentyseventeen\/assets\/images\/header.jpg",
+                "url": "https:\/\/s0.wp.com\/wp-content\/themes\/pub\/rcchoa_theme\/assets\/images\/header.jpg",
+                "thumbnail_url": "https:\/\/s0.wp.com\/wp-content\/themes\/pub\/rcchoa_theme\/assets\/images\/header.jpg",
                 "description": "Default Header Image"
             }
         },
@@ -77,7 +77,7 @@
             "hs_custom_meta": "_hs_about_page",
             "hs_sharing": 1,
             "hs_like_status": 1,
-            "attachment_url": "https:\/\/twentyseventeendemo.files.wordpress.com\/2017\/03\/breather-168767.jpg",
+            "attachment_url": "https:\/\/rcchoa_themedemo.files.wordpress.com\/2017\/03\/breather-168767.jpg",
             "hs_old_id": 100
         },
         {
@@ -92,7 +92,7 @@
             "hs_custom_meta": "_hs_contact_page",
             "hs_sharing": 1,
             "hs_like_status": 1,
-            "attachment_url": "https:\/\/headstartdata.files.wordpress.com\/2017\/03\/twentyseventeen-contact.jpg",
+            "attachment_url": "https:\/\/headstartdata.files.wordpress.com\/2017\/03\/rcchoa_theme-contact.jpg",
             "hs_old_id": 101
         },
         {

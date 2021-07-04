@@ -669,7 +669,7 @@ add_filter( 'typekit_add_font_category_rules', function( $category_rules ) {
 	);
 
 	TypekitTheme::add_font_category_rule( $category_rules, 'body-text',
-		'.twentyseventeen-panel .entry-header .edit-link',
+		'.rcchoa_theme-panel .entry-header .edit-link',
 		array(
 			array( 'property' => 'font-size', 'value' => '14px' ),
 		)
@@ -685,7 +685,7 @@ add_filter( 'typekit_add_font_category_rules', function( $category_rules ) {
 	);
 
 	TypekitTheme::add_font_category_rule( $category_rules, 'body-text',
-		'.twentyseventeen-panel .recent-posts .entry-header .edit-link',
+		'.rcchoa_theme-panel .recent-posts .entry-header .edit-link',
 		array(
 			array( 'property' => 'font-size', 'value' => '11px' ),
 		)
@@ -694,7 +694,7 @@ add_filter( 'typekit_add_font_category_rules', function( $category_rules ) {
 	TypekitTheme::add_font_category_rule( $category_rules, 'headings',
 		'.page .panel-content .entry-title,
 		.page-title,
-		body.page:not(.twentyseventeen-front-page) .entry-title',
+		body.page:not(.rcchoa_theme-front-page) .entry-title',
 		array(
 			array( 'property' => 'font-size', 'value' => '14px' ),
 			array( 'property' => 'font-weight', 'value' => '800' ),

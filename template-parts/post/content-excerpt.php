@@ -7,7 +7,7 @@
  * @link https://codex.wordpress.org/Template_Hierarchy
  *
  * @package WordPress
- * @subpackage Twenty_Seventeen
+ * @subpackage rcchoa_theme
  * @since 1.0
  * @version 1.0
  */
@@ -20,13 +20,13 @@
 		<?php if ( 'post' === get_post_type() ) : ?>
 			<div class="entry-meta">
 				<?php
-				echo twentyseventeen_time_link();
-				twentyseventeen_edit_link();
+				echo rcchoa_theme_time_link();
+				rcchoa_theme_edit_link();
 				?>
 			</div><!-- .entry-meta -->
 		<?php elseif ( 'page' === get_post_type() && get_edit_post_link() ) : ?>
 			<div class="entry-meta">
-				<?php twentyseventeen_edit_link(); ?>
+				<?php rcchoa_theme_edit_link(); ?>
 			</div><!-- .entry-meta -->
 		<?php endif; ?>
 
