@@ -570,3 +570,16 @@ require get_parent_theme_file_path( '/inc/icon-functions.php' );
 // updater for WordPress.com themes
 if ( is_admin() )
 	include dirname( __FILE__ ) . '/inc/updater.php';
+
+
+
+///////////////////////////////		MY STUFF	/////////////////////////////////////////////////////
+
+
+// Force users to be logged in to view the site.
+add_action( 'wp', 'member_only_site' );
+function member_only_site( ) {
+    if ( ! is_user_logged_in( ) ) {
+          auth_redirect();
+    }
+}
