@@ -1,0 +1,6 @@
+{
+    "name": "trevor-uehlin/wp-theme-rcchoa",
+    "description": "The wordpress theme for the Red Cedar Court Home Owners Association",
+    "type": "wordpress-theme",
+    "require": {}
+}
