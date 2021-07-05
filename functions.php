@@ -585,9 +585,9 @@ function member_only_site( ) {
 }
 
 // Redirect to the home page after login.
-// add_action("wp_login", "go_home");
-// function go_home() {
+add_action("wp_login", "go_home");
+function go_home() {
 
-// 	wp_redirect("/home");
-// 	exit;
-// }
+	wp_redirect( home_url() );
+	exit;
+}
