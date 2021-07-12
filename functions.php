@@ -591,3 +591,5 @@ function go_home() {
 	wp_redirect( home_url() );
 	exit;
 }
+
+wp_enqueue_style("rcchoa", get_template_directory_uri() . "/rcchoa.css", false, "1.1", "all");
