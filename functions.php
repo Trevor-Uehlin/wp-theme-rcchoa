@@ -592,4 +592,18 @@ function go_home() {
 	exit;
 }
 
+// Hide toolbar header icons for subscribers
+//add_action("wp_footer", "hide_toolbar_icons");
+function hide_toolbar_icons() {
+
+	global $wp_admin_bar;
+
+	$wp_admin_bar->remove_node("wp-admin-bar-wp-logo");
+
+	if(!current_user_can("manage_options")) {
+
+
+	}
+}
+
 wp_enqueue_style("rcchoa", get_template_directory_uri() . "/rcchoa.css", false, "1.1", "all");
