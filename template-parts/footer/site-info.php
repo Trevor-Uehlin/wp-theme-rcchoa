@@ -10,5 +10,5 @@
 
 ?>
 <div class="site-info">
-	<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'rcchoa_theme' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'rcchoa_theme' ), 'WordPress' ); ?></a>
+	<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'rcchoa_theme' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'rcchoa_theme' ), 'Trevor Uehlin' ); ?></a>
 </div><!-- .site-info -->

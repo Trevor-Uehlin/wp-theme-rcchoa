@@ -1,0 +1,7 @@
+div#wpadminbar{
+    background-color: unset;
+    color:white;
+}
+#wp-admin-bar-wp-logo, #wp-admin-bar-customize, #wp-admin-bar-updates, #wp-admin-bar-comments, #wp-admin-bar-new-content {
+    display: none;
+}
